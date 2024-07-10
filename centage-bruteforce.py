@@ -26,7 +26,7 @@ try:
 
     # Find the username field and enter the username
     username_field = driver.find_element(By.ID, 'idp-discovery-username')
-    username_field.send_keys('carlose@temple.edu')
+    username_field.send_keys('***')
 
     # Click to move to password field
     onto_password = driver.find_element(By.ID, 'idp-discovery-submit')
@@ -39,7 +39,7 @@ try:
 
     # Find the password field and enter the password
     password_field = driver.find_element(By.ID, 'okta-signin-password')
-    password_field.send_keys('Tigersrule1')
+    password_field.send_keys('***')
 
     # Find the sign-in button and click it
     sign_in_button = driver.find_element(By.ID, 'okta-signin-submit')
